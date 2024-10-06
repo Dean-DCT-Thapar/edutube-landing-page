@@ -10,6 +10,7 @@ export default function Home() {
               <img className="h-16 ml-3 pt-3" src="/thaparLogo.webp" alt="thapar logo"/>
             </a>
           </li>
+<<<<<<< HEAD
           <li className="mt-6">
             <a href="https://nptel.ac.in/" className="text-black">NPTEL</a>
           </li>
@@ -19,14 +20,21 @@ export default function Home() {
           <li className="mt-6">
             <a href="https://shodhratna.thapar.edu:8443/jspui/" className="text-black">ARCHIVE</a>
           </li>
+=======
+>>>>>>> 47cab63ee8027f877d28398db7186433861e9732
         </ul>
       </div>
       <div>
         <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
+<<<<<<< HEAD
         <div className="absolute top-32 left-5 w-3/4 py-5 bg-black opacity-65">
           <h1 className="text-center text-5xl font-bold">THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
           <h2 className="text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
         </div>     
+=======
+        <h1 className="absolute top-32 pt-14 pl-10 text-black text-center text-5xl font-bold" style={{left:'3%'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
+        <h2 className="text-black absolute top-52 pt-6 text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
+>>>>>>> 47cab63ee8027f877d28398db7186433861e9732
       </div>
       <div className="bg-[#eeedec] h-full">
         <div>
