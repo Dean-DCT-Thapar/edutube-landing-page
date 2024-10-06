@@ -32,15 +32,15 @@ export default function Home() {
       <div className="bg-[#eeedec] h-full">
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
-          <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the enxt level.</p>
-          <div className="flex flex-col sm:justify-center ml-16 sm:flex-row">
-            <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5 transition duration-150 hover:bg-[#eeedec] hover:text-[#570f07] hover:border-2 hover:border-[#570f07]">Browse Courses</button>
-            <button className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold transition duration-150 hover:bg-[#570f07] hover:text-[#eeedec]">Explore Confrences</button>
+          <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
+          <div className="flex flex-col sm:justify-center ml-20 sm:flex-row">
+            <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
+            <button className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
           </div>
         </div>
         <div className="flex flex-row mt-28 sm:ml-28 ml-14">
           <img className="h-96 w-96 mt-0 md:mt-10 mr-10 -ml-14 hidden md:block" src="/library.jpg" alt="photo" />
-          <div className="">
+          <div className="w-50">
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Structured Learning</h1>
               <p className="text-black w-3/4">Students will have access to a comprehensive, centralized repository of all course materials, including lectures, presentations, and notes, organized in a clear and intuitive format.</p>
