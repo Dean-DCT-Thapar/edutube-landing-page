@@ -10,7 +10,10 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },    
+      },
+      screens: {
+        'xs' : {'max' : '640'},
+      }    
     },
   },
   plugins: [],
