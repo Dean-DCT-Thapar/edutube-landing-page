@@ -8,14 +8,11 @@ export default function Home() {
           <li>
             <img className="h-16 ml-3 pt-3" src="/thaparLogo.webp" alt="thapar logo" />
           </li>
-          <li className="mr-10 pt-5">
-            <button className="text-white bg-[#570f07] h-10 w-24 rounded-3xl font-semibold">LOGIN</button>
-          </li>
         </ul>
       </div>
       <div>
         <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
-        <h1 className="absolute top-32 pt-14 text-black text-center text-5xl font-bold" style={{left:'3%'}}>THAPAR DIGITAL CONENT MANAGEMENT SYSTEM</h1>
+        <h1 className="absolute top-32 pt-14 pl-10 text-black text-center text-5xl font-bold" style={{left:'3%'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
         <h2 className="text-black absolute top-52 pt-6 text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
       </div>
       <div className="bg-[#eeedec] h-full">
