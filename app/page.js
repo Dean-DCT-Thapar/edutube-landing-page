@@ -4,13 +4,12 @@ export default function Home() {
   return (
     <>
       <div className="bg-[#e3e3e3] h-20">
-        <ul className="flex flex-row justify-between w-1/2">
+        <ul className="flex flex-row justify-between w-11/12 mx-auto md:w-1/2">
           <li>
             <a href="https://thapar.edu/">
-              <img className="h-16 ml-3 pt-3" src="/thaparLogo.webp" alt="thapar logo"/>
+              <img className="h-16 ml-3 pt-3" src="/thaparLogo.webp" alt="thapar logo" />
             </a>
           </li>
-<<<<<<< HEAD
           <li className="mt-6">
             <a href="https://nptel.ac.in/" className="text-black">NPTEL</a>
           </li>
@@ -20,33 +19,36 @@ export default function Home() {
           <li className="mt-6">
             <a href="https://shodhratna.thapar.edu:8443/jspui/" className="text-black">ARCHIVE</a>
           </li>
-=======
->>>>>>> 47cab63ee8027f877d28398db7186433861e9732
         </ul>
       </div>
       <div>
-        <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
-<<<<<<< HEAD
-        <div className="absolute top-32 left-5 w-3/4 py-5 bg-black opacity-65">
-          <h1 className="text-center text-5xl font-bold">THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
-          <h2 className="text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
-        </div>     
-=======
-        <h1 className="absolute top-32 pt-14 pl-10 text-black text-center text-5xl font-bold" style={{left:'3%'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
-        <h2 className="text-black absolute top-52 pt-6 text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
->>>>>>> 47cab63ee8027f877d28398db7186433861e9732
+        <Image className="h-80 w-full opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
+        <div className="absolute top-32 left-5 w-11/12 md:w-3/4 py-5 bg-black opacity-65">
+          <h1 className="text-center text-3xl md:text-5xl font-bold">THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
+          <h2 className="text-center" style={{ left: '4%' }}>
+            -Empowering Education Empowering Nation
+          </h2>
+        </div>
       </div>
       <div className="bg-[#eeedec] h-full">
         <div>
-          <h1 className="text-black text-5xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
-          <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the enxt level.</p>
-          <div className="flex flex-row justify-center mt-4">
-            <button className="text-white bg-[#570f07] h-10 w-48 rounded-3xl font-semibold mr-5 transition duration-150 hover:bg-[#eeedec] hover:text-[#570f07] hover:border-2 hover:border-[#570f07]">Browse Courses</button>
-            <button className="text-[#570f07] w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold transition duration-150 hover:bg-[#570f07] hover:text-[#eeedec]">Explore Confrences</button>
+          <h1 className="text-black text-3xl md:text-5xl text-center pt-10 md:pt-20 font-serif font-medium">
+            Unlock a World of Knowledge
+          </h1>
+          <p className="text-black text-center pt-2">
+            Access a wide range of structured learning materials and take your academic journey to the next level.
+          </p>
+          <div className="flex flex-col md:flex-row justify-center mt-4">
+            <button className="text-white bg-[#570f07] h-10 w-48 mb-3 md:mb-0 rounded-3xl font-semibold mr-0 md:mr-5 transition duration-150 hover:bg-[#eeedec] hover:text-[#570f07] hover:border-2 hover:border-[#570f07]">
+              Browse Courses
+            </button>
+            <button className="text-[#570f07] w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold transition duration-150 hover:bg-[#570f07] hover:text-[#eeedec]">
+              Explore Conferences
+            </button>
           </div>
         </div>
-        <img src="/blooms.webp" className="opacity-10 mx-auto mt-10"/>
-        <div className="absolute flex flex-row ml-48 mt-44 top-full">
+        <img src="/blooms.webp" className="opacity-10 h-85 w-70 mx-auto mt-20"/>
+        <div className="absolute flex flex-row ml-48 mt-38 top-full">
           <img className="h-96 w-96 mr-10" src="/library.jpg" alt="photo" />
           <div>
             <div className="mb-5">
