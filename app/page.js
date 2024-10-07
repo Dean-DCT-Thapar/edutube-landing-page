@@ -77,84 +77,85 @@ export default function Home() {
           <div className="grid grid-cols-4 sm:grid-cols-4 gap-0 sm:ml-5 pb-3">
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/neeraj.jpg" className="h-3/4 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-4/5 left-6 relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p className="text-[#570f07] font-serif">DR. NEERAJ KUMAR</p>
-                <p className="text-cente font-serif">POSTION</p>
+              <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
+                <p className="text-center font-serif">DEAN-DCT</p>
               </div>
-              <div className="text-black mx-auto w-4/5 -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center text-[#570f07] font-serif">DR. NEERAJ KUMAR</p>
-                <p className="text-center font-serif">POSTION</p>
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
+                <p className="text-center font-serif">DEAN-DCT</p>
               </div>
             </div>
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/hemdutt.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-6 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
-                <p className="text-cente font-serif">POSTION</p>
+                <p className="text-cente font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
               <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
-                <p className="text-center font-serif">POSTION</p>
+                <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
-              <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p>NAME</p>
-                <p>POSTION</p>
+            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
+              <img src="/ashutosh.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">DR. ASHUTOSH KUMAR SINGH</p>
+                <p className="text-center font-serif">LIBRARIAN</p>
               </div>
-              <div className="text-black mx-auto w-1/2 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center">NAME</p>
-                <p className="text-center">POSTION</p>
+              <div className="text-black mx-auto w-full -mt-16 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">DR. ASHUTOSH KUMAR SINGH</p>
+                <p className="text-center font-serif">LIBRARIAN</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
-              <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p>NAME</p>
-                <p>POSTION</p>
+            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
+              <img src="/pulkit.jpg" alt="pulkit ma'am photo" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
+                <p className="text-center font-serif">TEAM LEADER</p>
               </div>
-              <div className="text-black mx-auto w-1/2 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center">NAME</p>
-                <p className="text-center">POSTION</p>
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
+                <p className="text-center font-serif">TEAM LEADER</p>
+              </div>
+            </div>
+            
+          </div>
+          <div className="grid grid-cols-3 sm:grid-cols-3 gap-0 sm:ml-5 pb-3 mt-5">
+            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
+              <img src="/jia.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">JAYANTIKA</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
+              </div>
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">JAYANTIKA</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
+              </div>
+            </div>
+            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
+              <img src="/aahil.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">AAHIL KHAN</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
+              </div>
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">AAHIL KHAN</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
+              </div>
+            </div>
+            <div className="w-4/5 mt-3 -ml-6 group hover:cursor pointer">
+              <img src="/gaurav.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
+              </div>
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+                <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
+                <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-3 sm:grid-cols-3 gap-0 sm:ml-5 pb-3 mt-5">
-            <div className="w-2/3 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
-              <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p>NAME</p>
-                <p>POSTION</p>
-              </div>
-              <div className="text-black mx-auto w-1/2 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center">NAME</p>
-                <p className="text-center">POSTION</p>
-              </div>
-            </div>
-            <div className="w-2/3 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
-              <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p>NAME</p>
-                <p>POSTION</p>
-              </div>
-              <div className="text-black mx-auto w-1/2 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center">NAME</p>
-                <p className="text-center">POSTION</p>
-              </div>
-            </div>
-            <div className="w-2/3 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
-              <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p>NAME</p>
-                <p>POSTION</p>
-              </div>
-              <div className="text-black mx-auto w-1/2 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center">NAME</p>
-                <p className="text-center">POSTION</p>
-              </div>
-            </div>
-            </div>
         </div>
         <div className="mt-5 bg-[#e3e3e3] h-72 hidden sm:block">
           <img className="mx-auto" src="/footerLogo.png" alt="footer"/>
