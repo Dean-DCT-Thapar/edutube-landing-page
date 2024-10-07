@@ -44,7 +44,7 @@ export default function Home() {
           }
         }
       `}</style>
-      <div className="bg-[#eeedec] h-full">
+      <div className="bg-[#eeedec] h-full w-full">
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/hemdutt.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-full relative -top-1/2 sm:left-6 opacity-0 transition duration-500 group-hover:opacity-100">
+              <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
                 <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
