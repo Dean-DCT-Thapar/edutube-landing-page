@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 
 export default function Home() {
@@ -47,9 +48,11 @@ export default function Home() {
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
-          <div className="flex flex-col sm:justify-center ml-20 sm:flex-row">
-            <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
-            <button className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
+          <div className="flex flex-col sm:justify-center ml-18 sm:flex-row">
+            <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5" onClick={() => alert("Coming Soon!")}>Browse Courses</button>
+            <a href="http://www.conferenceranks.com/">
+              <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
+            </a>
           </div>
         </div>
         <div className="flex flex-row mt-28 sm:ml-28 ml-14">
@@ -70,7 +73,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h1 className="font-serif text-black text-3xl text-center mt-10">Our Team</h1>
+          <h1 className="font-serif text-black text-4xl font-medium text-center mt-10">Our Team</h1>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 pb-3">
             <div className="border border-black w-4/5 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
               <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
