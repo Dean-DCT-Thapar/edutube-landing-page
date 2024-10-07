@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row mt-28 sm:ml-28 ml-14">
-          <img className="h-96 w-96 mt-0 md:mt-0 mr-10 -ml-14 hidden md:block" src="/library.jpg" alt="photo" />
+          <img className="h-96 w-96 mt-0 md:mt-0 mr-10 -ml-14 hidden md:block" src="/change.jpg" alt="photo" />
           <div className="w-50">
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Structured Learning</h1>
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
         <div>
           <h1 className="font-serif text-black text-4xl font-medium text-center mt-10">Our Team</h1>
-          <div className="grid grid-cols-4 sm:grid-cols-4 gap-0 sm:ml-5 pb-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-0 sm:ml-5 pb-3">
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/neeraj.jpg" className="h-3/4 mx-auto transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="grid grid-cols-3 sm:grid-cols-3 gap-0 sm:ml-5 pb-3 mt-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 pb-3 mt-0 sm:mt-5">
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/jia.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
