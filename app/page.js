@@ -28,9 +28,9 @@ export default function Home() {
       </div>
       <div>
         <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
-        <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-3/4 py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
+        <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-3/4 group py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
           <h1 className="text-center text-xl sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
-          <h2 className="text-center"> -Empowering Education Empowering Nation</h2>
+          <h2 className="text-center opacity-0 transition ease-in-out duration-500 group-hover:opacity-100"> -Empowering Education Empowering Nation</h2>
         </div> 
       </div>
 
@@ -48,7 +48,7 @@ export default function Home() {
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
-          <div className="flex flex-col ml-24 sm:justify-center ml-18 sm:flex-row">
+          <div className="flex flex-col ml-24 sm:justify-center mx-auto sm:flex-row">
             <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5" onClick={() => alert("Coming Soon!")}>Browse Courses</button>
             <a href="http://www.conferenceranks.com/">            
               <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
@@ -61,55 +61,58 @@ export default function Home() {
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Structured Learning</h1>
               <p className="text-black w-3/4">Students will have access to a comprehensive, centralized repository of all course materials, including lectures, presentations, and notes, organized in a clear and intuitive format.</p>
+              <div className="border border-black w-3/4 mt-2"/>
             </div>
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Flexible Teaching</h1>
               <p className="text-black w-3/4">Students enjoy the freedom to customize their learning experience by selecting different instructors for various course components or even exploring the same topic from multiple perspectives to gain a deeper understanding.</p>
+              <div className="border border-black w-3/4 mt-2"/>
             </div>
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Personalized Tracking</h1>
               <p className="text-black w-3/4"> Each student can monitor and maintain a detailed record of their academic progress, including the number of lectures completed, to ensure a personalized and efficient learning journey</p>
+              <div className="border border-black w-3/4 mt-2"/> 
             </div>
           </div>
         </div>
         <div>
           <h1 className="font-serif text-black text-4xl font-medium text-center mt-10">Our Team</h1>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-0 sm:ml-5 pb-3">
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/neeraj.jpg" className="h-3/4 mx-auto transition duration-500 group-hover:opacity-45"/>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-0 sm:mx-auto">
+            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+              <img src="/neeraj.jpg" width={`100%`} className="h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
                 <p className="text-center font-serif">DEAN-DCT</p>
               </div>
-              <div className="text-black sm:-mt-10 -ml-6 sm:mx-auto w-52 sm:w-full -mt-14 opacity-100 transition duration-500 group-hover:opacity-0">
+              <div className="text-black -mt-10 mx-auto w-full opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
                 <p className="text-center font-serif">DEAN-DCT</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/hemdutt.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+              <img src="/hemdutt.jpg" width={`100%`} className=" h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
                 <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
-              <div className="text-black -ml-3 sm:mx-auto sm:w-full w-44 sm:-mt-10 -mt-20 mb-14 opacity-100 transition duration-500 group-hover:opacity-0">
+              <div className="text-black mx-auto w-full sm:-mt-10 -mt-16 opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
                 <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/ashutosh.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+            <div className=" mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+              <img src="/ashutosh.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">DR. ASHUTOSH KUMAR SINGH</p>
                 <p className="text-center font-serif">LIBRARIAN</p>
               </div>
-              <div className="text-black mx-auto w-full -mt-16 opacity-100 transition duration-500 group-hover:opacity-0">
+              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">DR. ASHUTOSH KUMAR SINGH</p>
                 <p className="text-center font-serif">LIBRARIAN</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/pulkit.jpg" alt="pulkit ma'am photo" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+              <img src="/pulkit.jpg" width={`100%`} alt="pulkit ma'am photo" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
                 <p className="text-center font-serif">TEAM LEADER</p>
@@ -121,9 +124,9 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 mt-0 sm:mt-5">
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/jia.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+          <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-24 sm:mx-5 mt-0 sm:mt-5">
+            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+              <img src="/jia.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">JAYANTIKA</p>
                 <p className="text-center font-serif">TEAM MEMBER</p>
@@ -133,8 +136,8 @@ export default function Home() {
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
-            <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
-              <img src="/aahil.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+            <div className="mt-3 ml-5 group bg-cyan-50 hover:cursor pointer">
+              <img src="/aahil.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">AAHIL KHAN</p>
                 <p className="text-center font-serif">TEAM MEMBER</p>
@@ -144,8 +147,8 @@ export default function Home() {
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
-            <div className="w-4/5 mt-3 ml-4 group hover:cursor pointer">
-              <img src="/gaurav.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+            <div className="mt-3 ml-5 bg-cyan-50 group hover:cursor pointer">
+              <img src="/gaurav.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
                 <p className="text-center font-serif">TEAM MEMBER</p>
