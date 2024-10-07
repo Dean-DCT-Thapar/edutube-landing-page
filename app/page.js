@@ -22,7 +22,7 @@ export default function Home() {
             <a href="https://cl.thapar.edu/" className="text-black opacity-0 md:opacity-100">LIBRARY</a>
           </li>
           <li className="mt-6 hover:scale-110 transition-all duration-300">
-            <a href="https://shodhratna.thapar.edu:8443/jspui/" className="text-black opacity-0 md:opacity-100">ARCHIVE</a>
+            <a href="https://shodhratna.thapar.edu:8443/jspui/" className="text-black opacity-0 md:opacity-100">SHODH RATNA</a>
           </li>
         </ul>
       </div>
