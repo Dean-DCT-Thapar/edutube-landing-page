@@ -4,7 +4,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <div>
       <div className="bg-[#e3e3e3] h-20 sm:h-20 sm:w-full">
         <ul className="flex flex-row justify-between w-1/2">
           <li className="hover:scale-105 transition-all duration-300">
@@ -122,7 +121,8 @@ export default function Home() {
                 <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
                 <p className="text-center font-serif">TEAM LEADER</p>
               </div>
-            </div>  
+            </div>
+            
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-24 sm:mx-5 mt-0 sm:mt-5">
             <div className="mt-3 ml-5 group hover:cursor pointer">
@@ -157,7 +157,6 @@ export default function Home() {
                 <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
-            </div>
             </div>
           </div>
         </div>
