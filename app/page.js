@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+    <div>
       <div className="bg-[#e3e3e3] h-20 sm:h-20 sm:w-full">
         <ul className="flex flex-row justify-between w-1/2">
           <li className="hover:scale-105 transition-all duration-300">
@@ -78,7 +79,7 @@ export default function Home() {
         <div>
           <h1 className="font-serif text-black text-4xl font-medium text-center mt-10">Our Team</h1>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-0 sm:mx-auto">
-            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/neeraj.jpg" width={`100%`} className="h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
@@ -89,7 +90,7 @@ export default function Home() {
                 <p className="text-center font-serif">DEAN-DCT</p>
               </div>
             </div>
-            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/hemdutt.jpg" width={`100%`} className=" h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
@@ -100,7 +101,7 @@ export default function Home() {
                 <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
             </div>
-            <div className=" mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+            <div className=" mt-3 ml-5 group hover:cursor pointer">
               <img src="/ashutosh.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">DR. ASHUTOSH KUMAR SINGH</p>
@@ -111,7 +112,7 @@ export default function Home() {
                 <p className="text-center font-serif">LIBRARIAN</p>
               </div>
             </div>
-            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/pulkit.jpg" width={`100%`} alt="pulkit ma'am photo" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
@@ -121,11 +122,10 @@ export default function Home() {
                 <p className="text-center text-[#570f07] font-serif">PULKIT SHARMA</p>
                 <p className="text-center font-serif">TEAM LEADER</p>
               </div>
-            </div>
-            
+            </div>  
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-24 sm:mx-5 mt-0 sm:mt-5">
-            <div className="mt-3 ml-5 group hover:cursor pointer bg-cyan-50">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/jia.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">JAYANTIKA</p>
@@ -136,7 +136,7 @@ export default function Home() {
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
-            <div className="mt-3 ml-5 group bg-cyan-50 hover:cursor pointer">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/aahil.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">AAHIL KHAN</p>
@@ -147,7 +147,7 @@ export default function Home() {
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
-            <div className="mt-3 ml-5 bg-cyan-50 group hover:cursor pointer">
+            <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/gaurav.jpg" width={`100%`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
@@ -157,6 +157,7 @@ export default function Home() {
                 <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
+            </div>
             </div>
           </div>
         </div>
