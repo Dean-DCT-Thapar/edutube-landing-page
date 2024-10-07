@@ -48,9 +48,9 @@ export default function Home() {
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
-          <div className="flex flex-col sm:justify-center ml-18 sm:flex-row">
+          <div className="flex flex-col ml-24 sm:justify-center ml-18 sm:flex-row">
             <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5" onClick={() => alert("Coming Soon!")}>Browse Courses</button>
-            <a href="http://www.conferenceranks.com/">
+            <a href="http://www.conferenceranks.com/">            
               <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
             </a>
           </div>
@@ -81,18 +81,18 @@ export default function Home() {
                 <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
                 <p className="text-center font-serif">DEAN-DCT</p>
               </div>
-              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+              <div className="text-black sm:-mt-10 -ml-6 sm:mx-auto w-52 sm:w-full -mt-14 opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">PROF. NEERAJ KUMAR</p>
                 <p className="text-center font-serif">DEAN-DCT</p>
               </div>
             </div>
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/hemdutt.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
-              <div className="text-black w-full relative -top-1/2 left-6 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p className="text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
-                <p className="text-cente font-serif">ASSOCIATE DEAN-DCT</p>
+              <div className="text-black w-full relative -top-1/2 sm:left-6 opacity-0 transition duration-500 group-hover:opacity-100">
+                <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
+                <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
-              <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
+              <div className="text-black -ml-3 sm:mx-auto sm:w-full w-44 sm:-mt-10 -mt-20 mb-14 opacity-100 transition duration-500 group-hover:opacity-0">
                 <p className="text-center text-[#570f07] font-serif">DR. HEM DUTT JOSHI</p>
                 <p className="text-center font-serif">ASSOCIATE DEAN-DCT</p>
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 pb-3 mt-0 sm:mt-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 mt-0 sm:mt-5">
             <div className="w-2/3 mt-3 ml-5 group hover:cursor pointer">
               <img src="/jia.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
@@ -144,7 +144,7 @@ export default function Home() {
                 <p className="text-center font-serif">TEAM MEMBER</p>
               </div>
             </div>
-            <div className="w-4/5 mt-3 -ml-6 group hover:cursor pointer">
+            <div className="w-4/5 mt-3 ml-4 group hover:cursor pointer">
               <img src="/gaurav.jpg" className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-[#570f07] font-serif">GAURAV SRIVASTAVA</p>
@@ -157,7 +157,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-5 bg-[#e3e3e3] h-72 hidden sm:block">
+        <div className="mt-5 sm:bg-[#e3e3e3] bg-[#e3e3e3] h-72 hidden sm:block">
           <img className="mx-auto" src="/footerLogo.png" alt="footer"/>
           <ul className="text-black flex flex-row justify-center">
             <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://www.thapar.edu/academics">Academics</a></li>
