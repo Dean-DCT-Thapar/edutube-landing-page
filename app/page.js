@@ -5,30 +5,44 @@ export default function Home() {
     <>
       <div className="bg-[#e3e3e3] h-20 sm:h-20 sm:w-full">
         <ul className="flex flex-row justify-between w-1/2">
-          <li>
+          <li className="hover:scale-105 transition-all duration-300">
             <a href="https://thapar.edu/">
               <img src="/logomob.webp" className="h-16 w-24 ml-3 pt-5 block sm:hidden"/>
               <img className="h-16 w-28 ml-3 pt-3 sm:h-16 hidden sm:block" src="/thaparLogo.webp" alt="thapar logo"/>
             </a>
           </li>
-          <li className="mt-6">
+          <li className="mt-6 hover:scale-110 transition-all duration-300">
+            <a href="https://thapar.edu/" className="text-black opacity-0 md:opacity-100">HOME</a>
+          </li>
+          <li className="mt-6 hover:scale-110 transition-all duration-300">
             <a href="https://nptel.ac.in/" className="text-black opacity-0 md:opacity-100">NPTEL</a>
           </li>
-          <li className="mt-6">
+          <li className="mt-6 hover:scale-110 transition-all duration-300">
             <a href="https://cl.thapar.edu/" className="text-black opacity-0 md:opacity-100">LIBRARY</a>
           </li>
-          <li className="mt-6">
+          <li className="mt-6 hover:scale-110 transition-all duration-300">
             <a href="https://shodhratna.thapar.edu:8443/jspui/" className="text-black opacity-0 md:opacity-100">ARCHIVE</a>
           </li>
         </ul>
       </div>
       <div>
         <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
-        <div className="absolute top-32 left-5 w-3/4 py-5 bg-black opacity-65">
-          <h1 className="text-center text-xl sm:text-5xl font-bold">THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
-          <h2 className="text-center" style={{left: '4%'}}>-Empowering Education Empowering Nation</h2>
-        </div>     
+        <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-3/4 py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
+          <h1 className="text-center text-xl sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
+          <h2 className="text-center"> -Empowering Education Empowering Nation</h2>
+        </div> 
       </div>
+
+      <style>{`
+        @keyframes slide {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+      `}</style>
       <div className="bg-[#eeedec] h-full">
         <div>
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
@@ -39,7 +53,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-row mt-28 sm:ml-28 ml-14">
-          <img className="h-96 w-96 mt-0 md:mt-10 mr-10 -ml-14 hidden md:block" src="/library.jpg" alt="photo" />
+          <img className="h-96 w-96 mt-0 md:mt-0 mr-10 -ml-14 hidden md:block" src="/library.jpg" alt="photo" />
           <div className="w-50">
             <div className="mb-5">
               <h1 className="text-black font-serif text-3xl">Structured Learning</h1>
@@ -56,8 +70,8 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h1 className="font-serif text-black text-3xl text-center mt-10">About Us</h1>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 mb-3">
+          <h1 className="font-serif text-black text-3xl text-center mt-10">Our Team</h1>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-0 sm:ml-5 pb-3">
             <div className="border border-black w-4/5 mt-3 ml-5 p-1 rounded-xl group hover:cursor pointer">
               <img src="/profile.png" className="w-4/5 mx-auto transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-1/2 relative -top-1/2 left-1/3 z-0 opacity-0 transition duration-500 group-hover:opacity-100">
@@ -129,11 +143,11 @@ export default function Home() {
         <div className="mt-5 bg-[#e3e3e3] h-72 hidden sm:block">
           <img className="mx-auto" src="/footerLogo.png" alt="footer"/>
           <ul className="text-black flex flex-row justify-center">
-            <li className="mr-3">Info</li>
-            <li className="mr-3">About</li>
-            <li className="mr-3"><a href="https://www.instagram.com/tietofficial?igsh=emFnanNkYW9uaWpu">Socials</a></li>
-            <li className="mr-3"><a href="https://thapar.edu/">Official Website</a></li>
-            <li>Contact Us</li>
+            <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://www.thapar.edu/academics">Academics</a></li>
+            <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://thapar.edu/aboutus">About</a></li>
+            <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://www.instagram.com/tietofficial?igsh=emFnanNkYW9uaWpu">Socials</a></li>
+            <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://thapar.edu/">Official Website</a></li>
+            <li className="mr-3 hover:scale-110 transition-all duration-300"><a href="https://www.thapar.edu/pages/contactus">Contact Us</a></li>
           </ul>
         </div>
       </div>
