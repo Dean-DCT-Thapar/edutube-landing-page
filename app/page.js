@@ -27,8 +27,8 @@ export default function Home() {
         </ul>
       </div>
       <div>
-        <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
-        <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-3/4 group py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
+        <Image className="sm:h-80 h-66 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
+        <div className="absolute sm:top-32 top-[12%] left-1/2 transform -translate-x-1/2 w-3/4 group sm:py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
           <h1 className="text-center text-xl sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
           <h2 className="text-center opacity-0 transition ease-in-out duration-500 sm:group-hover:opacity-100"> -Empowering Education Empowering Nation</h2>
         </div> 
@@ -49,9 +49,7 @@ export default function Home() {
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
           <div className="flex flex-col mx-[25%] md:mx-auto md:justify-center md:flex-row">
-            <a href="https://edutube-prototype.vercel.app/sign-in">
               <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
-            </a>
             <a href="http://www.conferenceranks.com/">            
               <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
             </a>
