@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
+  return (  
     <>
       <div className="bg-[#e3e3e3] h-20 sm:h-20 sm:w-full">
         <ul className="flex flex-row justify-between w-1/2">
@@ -29,7 +29,7 @@ export default function Home() {
       <div>
         <Image className="sm:h-80 h-66 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
         <div className="absolute sm:top-32 top-[12%] left-1/2 transform -translate-x-1/2 w-3/4 group sm:py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
-          <h1 className="text-center text-xl sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
+          <h1 className="text-center text-2xl h-12 sm:h-fit sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
           <h2 className="text-center opacity-0 transition ease-in-out duration-500 sm:group-hover:opacity-100"> -Empowering Education Empowering Nation</h2>
         </div> 
       </div>
