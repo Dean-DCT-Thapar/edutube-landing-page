@@ -30,7 +30,7 @@ export default function Home() {
         <Image className="h-80 w-screen opacity-65" src="/mHostel.jpg" alt="Photo" width={500} height={500} />
         <div className="absolute top-32 left-1/2 transform -translate-x-1/2 w-3/4 group py-5 bg-black opacity-65" style={{left: '15%', animation: 'slide 1s ease-in-out forwards'}}>
           <h1 className="text-center text-xl sm:text-5xl font-bold" style={{animation: 'slide 1s ease-in-out forwards'}}>THAPAR DIGITAL CONTENT MANAGEMENT SYSTEM</h1>
-          <h2 className="text-center opacity-0 transition ease-in-out duration-500 group-hover:opacity-100"> -Empowering Education Empowering Nation</h2>
+          <h2 className="text-center opacity-0 transition ease-in-out duration-500 sm:group-hover:opacity-100"> -Empowering Education Empowering Nation</h2>
         </div> 
       </div>
 
@@ -105,11 +105,11 @@ export default function Home() {
             <div className="mt-3 ml-5 group hover:cursor pointer">
               <img src="/ashutosh.jpg" width={`190px`} height={`150px`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
-                <p className="text-center text-sm text-[#570f07] font-serif">ASHUTOSH KUMAR</p>
+                <p className="text-center text-sm text-[#570f07] font-serif">SHRI RAM</p>
                 <p className="text-center text-sm font-serif">LIBRARIAN</p>
               </div>
               <div className="text-black mx-auto w-full -mt-10 opacity-100 transition duration-500 group-hover:opacity-0">
-                <p className="text-center text-[#570f07] font-serif">ASHUTOSH KUMAR</p>
+                <p className="text-center text-[#570f07] font-serif">SHRI RAM</p>
                 <p className="text-center font-serif">LIBRARIAN</p>
               </div>
             </div>
