@@ -49,9 +49,7 @@ export default function Home() {
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
           <div className="flex flex-col mx-[25%] md:mx-auto md:justify-center md:flex-row">
-            <a href="https://edutube-prototype.vercel.app/sign-in">
-              <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
-            </a>
+            <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
             <a href="http://www.conferenceranks.com/">            
               <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Confrences</button>
             </a>
