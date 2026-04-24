@@ -2,6 +2,11 @@ import "./globals.css";
 
 export const metadata = {
   title: "Thapar EduTube",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
