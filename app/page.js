@@ -49,8 +49,10 @@ export default function Home() {
           <h1 className="text-black sm:text-5xl text-3xl text-center pt-20 font-serif font-medium">Unlock a World of Knowledge</h1>
           <p className="text-black text-center pt-2">Access a wide range of structured learning materials and take your academic journey to the next level.</p>
           <div className="flex flex-col mx-[25%] md:mx-auto md:justify-center md:flex-row">
-              <button className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
-              <a href="http://www.conferenceranks.com/">            
+              <a href="https://edutube.dctofficethapar.xyz/" target="_blank" rel="noopener noreferrer">  
+                <button type="button" className="text-white bg-[#570f07] h-10 w-48 mt-5 rounded-3xl font-semibold mr-5">Browse Courses</button>
+              </a>
+              <a href="http://www.conferenceranks.com/" target="_blank" rel="noopener noreferrer">       
                 <button type="button" className="text-[#570f07] mt-5 w-48 h-10 border-2 border-[#570f07] rounded-3xl font-semibold">Explore Conferences</button>
               </a>
           </div>
@@ -101,7 +103,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-3 ml-5 group hover:cursor pointer">
-              <img src="/ashutosh.jpg" width={`190px`} height={`150px`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <img src="/shri_ram.jpg" width={`190px`} height={`150px`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-sm text-[#570f07] font-serif">SHRI RAM</p>
                 <p className="text-center text-sm font-serif">LIBRARIAN</p>
@@ -137,7 +139,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-3 ml-5 group hover:cursor pointer">
-              <img src="/aahil.jpg" width={`190px`} height={`150px`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
+              <img src="/aahil.jpeg" width={`190px`} height={`150px`} className="mx-auto h-3/4 transition duration-500 group-hover:opacity-45"/>
               <div className="text-black w-full relative -top-1/2 left-0 opacity-0 transition duration-500 group-hover:opacity-100">
                 <p className="text-center text-sm text-[#570f07] font-serif">AAHIL KHAN</p>
                 <p className="text-center text-sm font-serif">TEAM MEMBER</p>
